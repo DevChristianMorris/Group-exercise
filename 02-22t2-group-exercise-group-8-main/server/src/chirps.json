@@ -1,0 +1,25 @@
+[
+  {
+    "text": "I love frogs",
+    "createdDate": { "$date": "2022-02-14T16:54:40.000Z" },
+    "username": "Andrew",
+    "avatar": "https://placeimg.com/100/100/people",
+    "_id": { "$oid": "61480db44ab0cf7175467757" }
+  },
+
+  {
+    "text": "I make looms",
+    "createdDate": { "$date": "2022-02-18T16:54:40.000Z" },
+    "username": "Lance",
+    "avatar": "https://placeimg.com/100/100/people",
+    "_id": { "$oid": "614bdb72a84a9f79accfb835" }
+  },
+
+  {
+    "text": "Chris is awesome!",
+    "createdDate": { "$date": "2022-02-20T16:54:40.000Z" },
+    "username": "Chris",
+    "avatar": "https://placeimg.com/100/100/people",
+    "_id": { "$oid": "614bdb7fe93ba46343258618" }
+  }
+]

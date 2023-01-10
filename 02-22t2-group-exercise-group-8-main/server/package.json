@@ -1,0 +1,38 @@
+{
+  "name": "02-21t4-group-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Developers-Institute-Classrooms/02-21t4-group-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Developers-Institute-Classrooms/02-21t4-group-exercise/issues"
+  },
+  "homepage": "https://github.com/Developers-Institute-Classrooms/02-21t4-group-exercise#readme",
+  "dependencies": {
+    "celebrate": "^15.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^28.0.3",
+    "mongodb-memory-server": "^8.5.2",
+    "supertest": "^6.2.3"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./setupTests.js"
+    ]
+  }
+}
